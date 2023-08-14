@@ -1,0 +1,63 @@
+
+.strangerImg{
+    width:12rem;
+    height:12rem;
+}
+
+.logoutPng{
+    height:2rem;
+    width:2rem;
+    position: relative;
+    right:3rem;
+    top:-0.7rem;
+    margin-right: 2rem;
+    margin-top:1rem;
+
+}
+.nav{
+    display: flex;
+  padding:20px;
+    justify-content: space-between;
+}
+.leftSide{
+    display: flex;
+    margin-top: 1rem;;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left:-1.3rem;
+}
+li{
+    margin-left:1rem;
+    color:white;
+    margin-top:-2.5rem;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+.search{
+width:10rem;
+position: relative;
+right:-1.5rem;
+top:-1.5rem;
+border-radius:5px;
+
+border: 1px solid white;
+
+background-color:transparent;
+padding:5px;
+padding-left:1rem;
+color:white;
+font-size: 15px;
+}
+.Link{
+    height:2rem;
+    background-color: transparent;
+    border:none;
+    color:white;
+    margin-left:5rem;
+    font-size: 25px; 
+    font-weight: bold;   
+}
