@@ -1,0 +1,133 @@
+.trending{
+   display: flex;
+    width:50%;
+   
+    margin-left:2rem;
+    height:25%;
+   
+    
+}
+.trendingImg{
+    width:10rem;
+    height:10rem;
+ margin-right:2rem;
+    margin-top:4rem;
+border-radius: 4px;
+border:0.2px solid white;
+transition: all 0.5s;
+background-color: white;
+margin-left:-2rem;
+
+
+    
+}
+
+.trendingNow{
+    padding-top:1rem;
+        color:white;
+        margin: 0;
+        margin-bottom: 6rem;
+      padding-bottom:1rem;
+        padding-left:3.7rem;
+        z-index:999;
+    }
+  
+    .trendingContainer{
+        
+        background-color: black;
+    }
+    
+    .imgleft{
+        width:3rem;
+        height:3rem;
+        position: relative;
+ 
+        z-index:9999;
+        background-color: white;
+        display:none;
+    }
+    .imgright{
+        background-color: red;
+        width:3rem;
+        height:3rem;
+        display: block;
+        display:none;
+    }
+    .playButton{
+   
+        width:2rem;
+        height: 2rem;
+        display:none;
+     margin-top:-4rem;
+        color:white;
+    }
+ 
+    .trendingImgContainer{
+        width:16rem;
+     margin-top:-5rem;
+        height:12rem;
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        margin-left:2rem;
+        
+        
+    }
+    .trendingImgContainer:hover .playButton{
+        
+        display:block
+        
+    }
+    .trendingImgContainer:hover{
+        background-color:rgb(34, 31, 31);
+       
+       
+    
+    }
+    .movieTitle{
+        font-size:1rem;
+        position: relative;
+        top:-5rem;
+        margin-left:0;
+        
+        display:none;
+    }
+    .trendingImgContainer:hover .movieTitle{
+      
+        display:block
+
+    }
+ .trendingImgContainer:hover .trendingImg{
+    margin-top:-9px;
+ }
+ .leftArrow{
+
+
+    width:3rem;
+    height:5rem;
+color:white;
+position: absolute;
+top:5rem;
+z-index: 999;
+font-weight: bolder;
+padding-right:1rem;
+left:2rem;
+  
+display:none;
+ }
+.rightArrow{
+    
+  
+    border-radius:50%;
+        width:3rem;
+        height:5rem;
+    color:white;
+    position: relative;
+    top:6.5rem;
+    z-index: 999;
+    font-weight: bolder;
+    padding-right:1rem;
+    position: relative;
+
+
+}

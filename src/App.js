@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // Import your Dashboard component
 import Dashbord from './components/dashbord/Dashbord';
-function App() {
+function App() { 
   const firebaseConfig = {
     apiKey: "AIzaSyCVuC-Yx_qhLCWDpp04CNTRZ2Un31XFyVI",
     authDomain: "netflix-clone-d8990.firebaseapp.com",

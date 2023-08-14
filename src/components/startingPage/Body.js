@@ -2,22 +2,24 @@ import React from 'react'
 import './body.css'
 import Navbar from './Navbar'
 import {useState} from 'react'
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import {  createUserWithEmailAndPassword } from "firebase/auth";
 
 import { useNavigate } from "react-router-dom"; 
 function Body({auth}) {
   
-  const [showInput,ShowInput]=useState(false);
+  const [showInput,setShowInput]=useState(false);
   const [email,setEmail]=useState('');
   const [password,setPassword]=useState('');
+  
   const handlePassword=(e)=>{
     setPassword(e.target.value)
   }
   const handleEmail=(e)=>{
+    console.log(e)
     setEmail(e.target.value);
   }
   const handleClick=()=>{
-    ShowInput(true)
+    setShowInput(true)
   }
   const navigate=useNavigate();
   const handleSignup=()=>{

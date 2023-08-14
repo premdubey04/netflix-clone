@@ -11,7 +11,7 @@ function MainNavbar() {
 <div className='nav'>
 <div className='leftSide'>
     <img className="strangerImg" src={netflix} alt="netflix.png"/>
-   <Link to='/'><button class='Link'>Home</button></Link>
+   <Link to='/'><button className='Link'>Home</button></Link>
 <ul>
   <li> <h3>Tv Shows</h3></li>
   <li>   <h3>Movies</h3></li>
@@ -21,8 +21,8 @@ function MainNavbar() {
 </div>
 <div className='rightSide'>
 
-<input class='search' placeholder='search'/>
-<img class="logoutPng" src={logout} />
+<input className='search' placeholder='search'/>
+<img className="logoutPng" src={logout} />
 
 </div>
 </div>
